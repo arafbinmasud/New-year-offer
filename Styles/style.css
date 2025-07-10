@@ -253,3 +253,35 @@
   width: 675px;
   height: 578px;
 }
+
+/* Product Portfolio Section styles */
+.portfolio {
+  margin-top: 120px;
+}
+
+.portfolio-subtitle {
+  font-size: 24px;
+  font-weight: 500;
+  color: red;
+  margin-bottom: 16px;
+}
+
+.portfolio-title {
+  font-size: 48px;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.portfolio-description {
+  font-size: 20px;
+  color: #07021180;
+  margin-top: 0;
+  width: 896px;
+}
+
+.card-container {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
