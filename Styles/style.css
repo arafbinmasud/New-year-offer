@@ -1,0 +1,208 @@
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Shared styles */
+.width {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+/* Banner Styles */
+.banner-container {
+  text-align: center;
+  background-image: url("../images/Banner Image.png");
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.banner {
+  max-width: 632px;
+}
+
+.banner-subtitle {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+.banner-title {
+  font-size: 72px;
+  color: white;
+  margin-top: 0;
+}
+
+/* Discount section styles */
+.discount {
+  margin: 0 auto;
+}
+
+.discount-container {
+  margin: 120px 260px;
+  text-align: center;
+}
+
+.discount-title {
+  font-size: 88px;
+  font-weight: 700;
+  color: red;
+}
+
+.discount-description {
+  font-size: 24px;
+  font-weight: 600;
+  color: red;
+}
+
+.discount-subtitle {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+/* Welcome Section Styles */
+.welcome {
+  background-image: url("../images/Vectorrr.png");
+  height: 600px;
+}
+
+.welcome-container {
+  padding: 126px;
+}
+
+.welcome-title {
+  font-size: 64px;
+  font-weight: bolder;
+  color: white;
+  letter-spacing: 11px;
+  width: 642px;
+  margin-bottom: 0;
+}
+
+.welcome-description {
+  font-size: 18px;
+  color: white;
+  width: 697px;
+  margin: 24px 0 48px 0;
+}
+
+.welcome-join {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin: 0 32px;
+  background-color: transparent;
+  border: none;
+}
+
+/* Location section styles */
+.location {
+  display: flex;
+  height: 482px;
+  background: linear-gradient(
+    rgba(255, 0, 0, 0.137),
+    rgba(197, 197, 197, 0.082)
+  );
+  border-radius: 20px;
+  margin: 120px 0;
+  align-items: center;
+}
+
+.location-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.location-container p {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.location-container p span {
+  color: red;
+}
+
+.join-btn {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 32px;
+  margin-top: 48px;
+}
+
+/* New offer section styles */
+.new-offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.column-left {
+  margin: 104px 70px 104px 0;
+  width: 393px;
+}
+
+.column-left-subtitle {
+  color: red;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.column-left-title {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.column-left-description {
+  font-size: 20px;
+  color: #070211;
+  margin-top: 0;
+}
+
+.image-wrapper{
+  background-color: white;
+  border: 15px solid red;
+  border-radius: 50%;
+}
+
+.image-wrapper img{
+    margin: 30px;
+}
+.column-right {
+  width: 276px;
+  margin-left: 118px;
+}
+
+.column-right-title {
+  font-weight: bold;
+  font-size: 48px;
+  color: red;
+  margin-bottom: 16px;
+}
+
+.column-right-description {
+  font-size: 20px;
+  color: #070211;
+  margin-top: 0;
+  margin-bottom: 43px;
+}
